@@ -1,0 +1,8 @@
+{
+    "realm": "gendarmerie_royale",
+    "auth-server-url": "http://192.168.60.222:8080",
+    "ssl-required": "external",
+    "resource": "cip",
+    "public-client": true,
+    "confidential-port": 0
+}

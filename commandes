@@ -1,0 +1,5 @@
+sudo docker build -t e-certificat-demo  --build-arg VITE_CERTIFICAT_URL=http://192.168.60.95:3000   --build-arg VITE_CNI_READER=http://192.168.60.123:9876   --build-arg VITE_CNI_READER_ONLINE=http://192.168.60.124:3002 .
+
+
+
+sudo docker run -p 8080:80 e-certificat-demo

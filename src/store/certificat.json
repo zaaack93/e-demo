@@ -1,0 +1,94 @@
+{
+    "_id": {
+        "$oid": "64e4b3ac9f3e4407c9dce3ff"
+    },
+    "personne": {
+        "cni": "TA120999",
+        "prenom": {
+            "fr": "zakaria",
+            "ar": "zakaria"
+        },
+        "nom": {
+            "fr": "zakaria toto",
+            "ar": "zakaria"
+        },
+        "nomPere": {
+            "fr": "zakaria",
+            "ar": "zakaria"
+        },
+        "nomMere": {
+            "fr": "zakaria",
+            "ar": "zakaria"
+        },
+        "dateNaissance": {
+            "$date": "2023-08-21T00:00:00.000Z"
+        },
+        "nationalite": {
+            "_id": "64de27a042cca76b549c9749",
+            "ordre": 0,
+            "code": "MA",
+            "libelle": {
+                "fr": "Maroc",
+                "ar": "المغرب"
+            }
+        },
+        "provinceNaissance": {
+            "_id": "64d38b19254e5651479250fb",
+            "code": "province_15",
+            "libelle": {
+                "fr": "TAZA",
+                "ar": "تـــازة"
+            },
+            "type": "province"
+        },
+        "communeNaissance": {
+            "_id": "64d38b19254e565147924d7d",
+            "entiteMere": "province_15",
+            "code": "commune_280",
+            "libelle": {
+                "fr": "TRAIBA",
+                "ar": "اترايبة"
+            },
+            "type": "commune"
+        }
+    },
+    "adresse": {
+        "fr": "zakaria",
+        "ar": "zakaria"
+    },
+    "motifDemande": {
+        "_id": "64de287642cca76b549c97bc",
+        "code": "REALISATION_CNI",
+        "libelle": {
+            "fr": "Réalisation de la CNI",
+            "ar": ""
+        },
+        "ordre": 1,
+        "type": "demande"
+    },
+    "dateDemande": {
+        "$date": "2023-08-21T00:00:00.000Z"
+    },
+    "statut": "delivree",
+    "documents": [
+        {
+            "$oid": "64e4b3ac9f3e4407c9dce403"
+        },
+        {
+            "$oid": "64e4b58fde95377d88d1cbfd"
+        },
+        {
+            "$oid": "64e5d5cbde95377d88d1cc85"
+        },
+        {
+            "$oid": "64e5d788de95377d88d1cc97"
+        }
+    ],
+    "createdAt": {
+        "$date": "2023-08-22T13:10:04.726Z"
+    },
+    "updatedAt": {
+        "$date": "2023-09-04T09:06:54.121Z"
+    },
+    "__v": 6
+}
